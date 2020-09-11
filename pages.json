@@ -1,0 +1,111 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+		    "path" : "pages/welcome/welcome",
+		    "style" : {
+				"navigationStyle":"custom"
+			}
+		},{
+            "path" : "pages/tabbar/wisdomBox/wisdomBox",
+            "style" : {
+				"navigationStyle":"custom"
+			}
+        },{
+            "path" : "pages/tabbar/cloudRoad/cloudRoad",
+            "style" : {
+				"navigationStyle":"custom"
+			}
+        },{
+            "path" : "pages/tabbar/star/star",
+            "style" : {
+				"navigationStyle":"custom"
+			}
+        },{
+            "path" : "pages/sildeshow/sildeshow",
+            "style" : {
+				"navigationStyle":"custom"
+			}
+        }
+        ,{
+            "path" : "pages/notLogin/notLogin",
+            "style" : {
+				"navigationStyle":"custom"
+			}
+        },{
+            "path" : "pages/feedback/feedback",
+            "style" : {
+				"navigationStyle":"custom"
+			}
+        },{
+            "path" : "pages/login/login",
+            "style" : {
+				"navigationStyle":"custom"
+				}
+        },{
+            "path" : "pages/reg/reg",
+            "style" : {
+				"navigationStyle":"custom"
+			}
+        },{
+		    "path" : "pages/tabbar/my/my",
+		    "style" : {
+				"navigationStyle":"custom"
+			}
+		},{
+            "path" : "pages/gerenxinxi/gerenxinxi",
+            "style" : {
+				"navigationStyle":"custom"
+			}
+        }
+        ,{
+            "path" : "pages/anquanzhongxin/anquanzhongxin",
+            "style" : {
+				"navigationStyle":"custom"
+			}
+        }
+        ,{
+            "path" : "pages/huishourizhi/huishourizhi",
+            "style" : {
+				"navigationStyle":"custom"
+			}
+        }
+        ,{
+            "path" : "pages/qiandao/qiandao",
+            "style" : {
+				"navigationStyle":"custom"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"color":"#1195db",
+		"selectedColor":"#fbd102",
+		"backgroundColor":"#fff",
+		"list":[{
+			"pagePath":"pages/tabbar/wisdomBox/wisdomBox",
+			"iconPath":"static/垃圾箱.png",
+			"selectedIconPath":"static/垃圾箱active.png",
+			"text":"智箱"
+		},{
+			"pagePath":"pages/tabbar/cloudRoad/cloudRoad",
+			"iconPath":"static/路线.png",
+			"selectedIconPath":"static/路线active.png",
+			"text":"云路"
+		},{
+			"pagePath":"pages/tabbar/star/star",
+			"iconPath":"./static/星星.png",
+			"selectedIconPath":"static/星星active.png",
+			"text":"环卫之星"
+		},{
+			"pagePath":"pages/tabbar/my/my",
+			"iconPath":"./static/我的.png",
+			"selectedIconPath":"static/我的active.png",
+			"text":"我的"
+		}]
+	}
+}

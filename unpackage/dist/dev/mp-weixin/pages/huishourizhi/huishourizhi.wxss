@@ -1,0 +1,140 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.huishourizhi {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 54px;
+}
+.huishourizhi .arrowleft {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+  height: 75px;
+  box-sizing: border-box;
+  background-color: #fbd102;
+}
+.huishourizhi .arrowleft .icon {
+  height: 75px;
+  margin-top: 40px;
+}
+.huishourizhi .arrowleft .title {
+  width: 100%;
+  margin-left: 130px;
+  margin-top: 40px;
+}
+.huishourizhi .huoshourizhi-journal .journal-title {
+  padding: 10px 15px;
+  font-size: 16px;
+  color: #666;
+  border-bottom: 1px solid #f5f5f5;
+}
+.huishourizhi .huoshourizhi-journal .journal-content {
+  padding: 0 15px;
+  border-top: 1px solid #eee;
+}
+.huishourizhi .huishourizhi-bottom {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  width: 100%;
+  height: 44px;
+  border-top: 1px solid #f5f5f5;
+  background-color: #FFFFFF;
+  box-sizing: border-box;
+}
+.huishourizhi .huishourizhi-bottom .huishourizhi-bottom_input {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  margin: 0 10px;
+  padding: 0 10px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.huishourizhi .huishourizhi-bottom .huishourizhi-bottom_input text {
+  font-size: 14px;
+  color: #999;
+}
+.huishourizhi .popup-wrap {
+  background-color: #fff;
+}
+.huishourizhi .popup-wrap .popup-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  font-size: 16px;
+  color: #101010;
+  border-bottom: 1px solid #f5f5f5;
+}
+.huishourizhi .popup-wrap .popup-header .popup-header_item {
+  height: 50px;
+  line-height: 50px;
+  padding: 0 15px;
+}
+.huishourizhi .popup-wrap .popup-content {
+  width: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+}
+.huishourizhi .popup-wrap .popup-content .popup-textarea {
+  width: 100%;
+  height: 130px;
+}
+.huishourizhi .popup-wrap .popup-content .popup-count {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+          justify-content: flex-end;
+  font-size: 14px;
+  color: #999;
+}
+

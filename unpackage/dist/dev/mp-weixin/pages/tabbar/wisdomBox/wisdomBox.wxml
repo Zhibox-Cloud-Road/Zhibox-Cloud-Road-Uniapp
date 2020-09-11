@@ -1,0 +1,1 @@
+<view class="wisdombox"><view class="arrowleft"><uni-icons class="icon" vue-id="212c63d9-1" type="arrowleft" size="24" color="#2e2602" bind:__l="__l"></uni-icons><view class="title">智箱</view></view><map style="width:100%;height:542px;" latitude="{{latitude}}" longitude="{{longitude}}" markers="{{covers}}" show-location="{{true}}"></map></view>

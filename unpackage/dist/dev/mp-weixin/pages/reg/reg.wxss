@@ -1,0 +1,99 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.navbar {
+  width: 100%;
+  height: 75px;
+  background-color: #fbd102;
+}
+.navbar .arrowleft {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+  height: 75px;
+  box-sizing: border-box;
+}
+.navbar .arrowleft .icon {
+  height: 75px;
+  margin-top: 40px;
+}
+.navbar .arrowleft .title {
+  width: 100%;
+  margin-left: 146px;
+  margin-top: 40px;
+}
+.reg-bottom {
+  position: absolute;
+  top: 385px;
+}
+.warning {
+  margin-top: 5px;
+  font-size: 15px;
+  color: #C0C0C0;
+  text-align: center;
+}
+.content {
+  top: 70px;
+}
+.dropbtn {
+  color: #101010;
+  font-size: 14px;
+  margin: 5px;
+  cursor: pointer;
+  width: 160px;
+}
+.dropdown {
+  position: relative;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  left: 120px;
+  top: 42px;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  max-height: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 2;
+}
+/* 下拉菜单的选项 */
+.dropdown-content text {
+  color: #101010;
+  font-size: 16px;
+  text-align: center;
+  display: block;
+}
+/* 鼠标移上去后修改下拉菜单链接颜色 */
+.dropdown-content ._a:hover {
+  background-color: #f1f1f1;
+}
+/* 在鼠标移上去后显示下拉菜单 */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+

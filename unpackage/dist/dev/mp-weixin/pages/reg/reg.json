@@ -1,0 +1,8 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uni-icons": "/components/uni-icons/uni-icons",
+    "m-input": "/components/m-input/m-input",
+    "uni-combox": "/components/uni-combox/uni-combox"
+  }
+}

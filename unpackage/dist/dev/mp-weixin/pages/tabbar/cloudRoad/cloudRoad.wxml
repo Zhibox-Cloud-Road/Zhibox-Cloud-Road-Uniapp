@@ -1,0 +1,1 @@
+<view class="cloudroad"><view class="arrowleft"><uni-icons class="icon" vue-id="205023fa-1" type="arrowleft" size="24" color="#2e2602" bind:__l="__l"></uni-icons><view class="title">云路</view></view><map style="width:100%;height:542px;" id="myMap" latitude="{{latitude}}" longitude="{{longitude}}" markers="{{markers}}" show-location="{{true}}"></map></view>

@@ -1,0 +1,62 @@
+{
+  "pages": [
+    "pages/welcome/welcome",
+    "pages/tabbar/wisdomBox/wisdomBox",
+    "pages/tabbar/cloudRoad/cloudRoad",
+    "pages/tabbar/star/star",
+    "pages/sildeshow/sildeshow",
+    "pages/notLogin/notLogin",
+    "pages/feedback/feedback",
+    "pages/login/login",
+    "pages/reg/reg",
+    "pages/tabbar/my/my",
+    "pages/gerenxinxi/gerenxinxi",
+    "pages/anquanzhongxin/anquanzhongxin",
+    "pages/huishourizhi/huishourizhi",
+    "pages/qiandao/qiandao"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#1195db",
+    "selectedColor": "#fbd102",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/tabbar/wisdomBox/wisdomBox",
+        "iconPath": "static/垃圾箱.png",
+        "selectedIconPath": "static/垃圾箱active.png",
+        "text": "智箱"
+      },
+      {
+        "pagePath": "pages/tabbar/cloudRoad/cloudRoad",
+        "iconPath": "static/路线.png",
+        "selectedIconPath": "static/路线active.png",
+        "text": "云路"
+      },
+      {
+        "pagePath": "pages/tabbar/star/star",
+        "iconPath": "./static/星星.png",
+        "selectedIconPath": "static/星星active.png",
+        "text": "环卫之星"
+      },
+      {
+        "pagePath": "pages/tabbar/my/my",
+        "iconPath": "./static/我的.png",
+        "selectedIconPath": "static/我的active.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "1212"
+    }
+  },
+  "usingComponents": {}
+}

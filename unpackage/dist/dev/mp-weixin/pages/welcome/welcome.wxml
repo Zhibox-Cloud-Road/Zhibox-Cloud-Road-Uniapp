@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['go',['$event']]]]]}}" class="welcome" bindtap="__e"><image src="../../static/单独_状态.png" mode="aspectFill"></image><view class="top"></view><view class="logo"><image src="../../static/logo.png" mode="aspectFill"></image></view><view class="title"><view>智箱云路</view></view><view class="bottom">V1.0.0</view></view>
